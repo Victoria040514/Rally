@@ -1,0 +1,65 @@
+
+.banner {
+  background-color: #1B1F3B;
+
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(14, 22, 45, 0.88) 0%,
+      rgba(14, 22, 45, 0.65) 55%,
+      rgba(14, 22, 45, 0.25) 100%
+    ),
+    url("../../images/background.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  padding: 145px 0;
+}
+
+.banner .eyebrow {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #B8D0FF;
+  margin-bottom: 22px;
+}
+
+.banner h1 {
+  font-size: 58px;
+  font-weight: 900;
+  line-height: 1.1;
+  color: #FFFFFF;
+  max-width: 760px;
+  margin: 0 0 24px;
+}
+
+.banner h2 {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #E6EBF6;
+  max-width: 560px;
+  margin: 0 0 35px;
+}
+
+@media (max-width: 720px) {
+  .banner {
+    padding: 95px 0;
+  }
+
+  .banner h1 {
+    font-size: 40px;
+  }
+
+  .banner h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 420px) {
+  .banner h1 {
+    font-size: 34px;
+  }
+}
